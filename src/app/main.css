@@ -40,3 +40,30 @@ a {
     color-scheme: dark;
   }
 }
+
+main{
+  max-width: 1040px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+header{
+  padding: "20px 10px";
+  box-shadow: 0px 0px 1px solid grey;
+}
+header main{
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo{
+  font-size: 40px;
+}
+.header-menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu li{
+  margin: 10px;
+}

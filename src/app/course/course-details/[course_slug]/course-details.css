@@ -1,0 +1,9 @@
+.course-details-layout{
+    display: flex;
+    flex-direction: row; /* Use 'column' if you want vertical layout */
+    gap: 16px;            /* Space between elements */
+    padding: 16px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 8px;
+    align-items: flex-start;   /* Align items at the top */
+}
